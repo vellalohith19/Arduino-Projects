@@ -28,6 +28,10 @@ This Arduino project demonstrates how to control two LEDs using a push button. T
 | Red LED     | D13         |
 | Green LED   | D12         |
 
+## Circuit Diagram
+
+![Circuit Diagram](circuit.png)
+
 ## Working Principle
 
 * When the push button is **pressed**, the Arduino reads a `LOW` signal because `INPUT_PULLUP` is enabled.
